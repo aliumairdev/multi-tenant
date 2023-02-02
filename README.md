@@ -1,24 +1,11 @@
-# README
+# There are many use cases for achieving multitenancy in a Rails application. Two of the best gems to use for this purpose are apartment and acts_as_tenant. Both work well and are commonly used. Here are some tips for using acts_as_tenant along with Devise, the most common user authentication gem, to create a multitenant Rails application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Create Database
+* rails db:create
+* rails db:migrate
 
-Things you may want to cover:
+# Run Bundle
+* bundle install
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Run Server
+* rails s
